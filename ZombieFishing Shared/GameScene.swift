@@ -7,12 +7,57 @@
 
 import SpriteKit
 
+// States
+enum GameState: Int {
+  case readyToCast
+  case casting
+  case fishing
+  case reelingIn
+  case collectingFish
+  case gameOver
+}
+
+
 class GameScene: SKScene {
     
-    
-    fileprivate var label : SKLabelNode?
-    fileprivate var spinnyNode : SKShapeNode?
+    var fishCam: SKCameraNode?
+    var boatSprite: SKSpriteNode?
+    var fisherman: SKSpriteNode?
+    var pole: SKSpriteNode?
+    var hook: SKSpriteNode?
+    var line: SKSpriteNode?
+    // Game state
+    var gameState: GameState = .readyToCast
+    //
+    // Timers
+    var cloudTimer: Double = 0.0
+    var fishTimer: Double = 0.0
+    var tickTimer: Double = 0.0
+    var fishingTimer: Double = 0.0
+    //
+    var yumFish: SKSpriteNode?
+    var piranha: SKSpriteNode?
+    var fishCaught: SKNode?
 
+    var score: Int = 0
+    var lives: Int = 3
+    // Labels
+    var scoreLabel: SKLabelNode?
+    var livesLabel: SKLabelNode?
+    var statusLabel: SKLabelNode?
+    //
+    // Sounds
+    var reelStartSound = SKAction.playSoundFileNamed("Reel Start Sound", waitForCompletion: false)
+    var reelTickSound = SKAction.playSoundFileNamed("Reel Tick Sound", waitForCompletion: false)
+    var yumFishSound = SKAction.playSoundFileNamed("Yum Fish Sound", waitForCompletion: false)
+    var zombieSound = SKAction.playSoundFileNamed("Zombie Sound", waitForCompletion: false)
+    var gameOverSound = SKAction.playSoundFileNamed("Game Over Sound", waitForCompletion: true)
+    var fishCaughtSound = SKAction.playSoundFileNamed("Fish Caught", waitForCompletion: false)
+    var fishBashSound = SKAction.playSoundFileNamed("Fish Bash Sound", waitForCompletion: false)
+    var fishOffSound = SKAction.playSoundFileNamed("Fish Off Sound", waitForCompletion: false)
+    
+    
+    
     
     class func newGameScene() -> GameScene {
         // Load 'GameScene.sks' as an SKScene.
@@ -29,76 +74,43 @@ class GameScene: SKScene {
     
     func setUpScene() {
         // Get label node from scene and store it for use later
-        self.label = self.childNode(withName: "//helloLabel") as? SKLabelNode
-        if let label = self.label {
-            label.alpha = 0.0
-            label.run(SKAction.fadeIn(withDuration: 2.0))
+       
         }
         
         // Create shape node to use during mouse interaction
-        let w = (self.size.width + self.size.height) * 0.05
-        self.spinnyNode = SKShapeNode.init(rectOf: CGSize.init(width: w, height: w), cornerRadius: w * 0.3)
         
-        if let spinnyNode = self.spinnyNode {
-            spinnyNode.lineWidth = 4.0
-            spinnyNode.run(SKAction.repeatForever(SKAction.rotate(byAngle: CGFloat(Double.pi), duration: 1)))
-            spinnyNode.run(SKAction.sequence([SKAction.wait(forDuration: 0.5),
-                                              SKAction.fadeOut(withDuration: 0.5),
-                                              SKAction.removeFromParent()]))
-        }
-    }
     
     override func didMove(to view: SKView) {
         self.setUpScene()
     }
 
-    func makeSpinny(at pos: CGPoint, color: SKColor) {
-        if let spinny = self.spinnyNode?.copy() as! SKShapeNode? {
-            spinny.position = pos
-            spinny.strokeColor = color
-            self.addChild(spinny)
-        }
+   
     }
     
-    override func update(_ currentTime: TimeInterval) {
-        // Called before each frame is rendered
-    }
-}
+
 
 #if os(iOS) || os(tvOS)
 // Touch-based event handling
 extension GameScene {
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        if let label = self.label {
-            label.run(SKAction.init(named: "Pulse")!, withKey: "fadeInOut")
-        }
-        
-        for t in touches {
-            self.makeSpinny(at: t.location(in: self), color: SKColor.green)
-        }
+
     }
     
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
-        for t in touches {
-            self.makeSpinny(at: t.location(in: self), color: SKColor.blue)
-        }
+        
     }
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        for t in touches {
-            self.makeSpinny(at: t.location(in: self), color: SKColor.red)
-        }
+    
     }
     
     override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
-        for t in touches {
-            self.makeSpinny(at: t.location(in: self), color: SKColor.red)
-        }
     }
     
    
 }
+
 #endif
 
 #if os(OSX)
@@ -106,18 +118,18 @@ extension GameScene {
 extension GameScene {
 
     override func mouseDown(with event: NSEvent) {
-        if let label = self.label {
-            label.run(SKAction.init(named: "Pulse")!, withKey: "fadeInOut")
-        }
-        self.makeSpinny(at: event.location(in: self), color: SKColor.green)
+        let location = event.location(in: self)
+        handlePlayerAction(at: location)
+
+    
     }
     
     override func mouseDragged(with event: NSEvent) {
-        self.makeSpinny(at: event.location(in: self), color: SKColor.blue)
+    
     }
     
     override func mouseUp(with event: NSEvent) {
-        self.makeSpinny(at: event.location(in: self), color: SKColor.red)
+    
     }
 
 }
