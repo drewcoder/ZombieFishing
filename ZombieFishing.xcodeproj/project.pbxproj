@@ -7,6 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A868D18829C025D3009FD2A0 /* Fish Bash Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D18729C025D3009FD2A0 /* Fish Bash Sound.mp3 */; };
+		A868D18929C025D3009FD2A0 /* Fish Bash Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D18729C025D3009FD2A0 /* Fish Bash Sound.mp3 */; };
+		A868D18A29C025D3009FD2A0 /* Fish Bash Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D18729C025D3009FD2A0 /* Fish Bash Sound.mp3 */; };
+		A868D19329C025EB009FD2A0 /* Fish Off Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D18B29C025EB009FD2A0 /* Fish Off Sound.mp3 */; };
+		A868D19429C025EB009FD2A0 /* Fish Off Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D18B29C025EB009FD2A0 /* Fish Off Sound.mp3 */; };
+		A868D19529C025EB009FD2A0 /* Fish Off Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D18B29C025EB009FD2A0 /* Fish Off Sound.mp3 */; };
+		A868D19629C025EB009FD2A0 /* Game Over Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D18C29C025EB009FD2A0 /* Game Over Sound.mp3 */; };
+		A868D19729C025EB009FD2A0 /* Game Over Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D18C29C025EB009FD2A0 /* Game Over Sound.mp3 */; };
+		A868D19829C025EB009FD2A0 /* Game Over Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D18C29C025EB009FD2A0 /* Game Over Sound.mp3 */; };
+		A868D19929C025EB009FD2A0 /* Reel Tick Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D18D29C025EB009FD2A0 /* Reel Tick Sound.mp3 */; };
+		A868D19A29C025EB009FD2A0 /* Reel Tick Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D18D29C025EB009FD2A0 /* Reel Tick Sound.mp3 */; };
+		A868D19B29C025EB009FD2A0 /* Reel Tick Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D18D29C025EB009FD2A0 /* Reel Tick Sound.mp3 */; };
+		A868D19C29C025EB009FD2A0 /* Fish Caught.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D18E29C025EB009FD2A0 /* Fish Caught.mp3 */; };
+		A868D19D29C025EB009FD2A0 /* Fish Caught.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D18E29C025EB009FD2A0 /* Fish Caught.mp3 */; };
+		A868D19E29C025EB009FD2A0 /* Fish Caught.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D18E29C025EB009FD2A0 /* Fish Caught.mp3 */; };
+		A868D19F29C025EB009FD2A0 /* Yum Fish Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D18F29C025EB009FD2A0 /* Yum Fish Sound.mp3 */; };
+		A868D1A029C025EB009FD2A0 /* Yum Fish Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D18F29C025EB009FD2A0 /* Yum Fish Sound.mp3 */; };
+		A868D1A129C025EB009FD2A0 /* Yum Fish Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D18F29C025EB009FD2A0 /* Yum Fish Sound.mp3 */; };
+		A868D1A229C025EB009FD2A0 /* Zombie Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D19029C025EB009FD2A0 /* Zombie Sound.mp3 */; };
+		A868D1A329C025EB009FD2A0 /* Zombie Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D19029C025EB009FD2A0 /* Zombie Sound.mp3 */; };
+		A868D1A429C025EB009FD2A0 /* Zombie Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D19029C025EB009FD2A0 /* Zombie Sound.mp3 */; };
+		A868D1A529C025EB009FD2A0 /* Reel Start Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D19129C025EB009FD2A0 /* Reel Start Sound.mp3 */; };
+		A868D1A629C025EB009FD2A0 /* Reel Start Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D19129C025EB009FD2A0 /* Reel Start Sound.mp3 */; };
+		A868D1A729C025EB009FD2A0 /* Reel Start Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D19129C025EB009FD2A0 /* Reel Start Sound.mp3 */; };
+		A868D1A829C025EB009FD2A0 /* Fishing Ambience Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D19229C025EB009FD2A0 /* Fishing Ambience Sound.mp3 */; };
+		A868D1A929C025EB009FD2A0 /* Fishing Ambience Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D19229C025EB009FD2A0 /* Fishing Ambience Sound.mp3 */; };
+		A868D1AA29C025EB009FD2A0 /* Fishing Ambience Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A868D19229C025EB009FD2A0 /* Fishing Ambience Sound.mp3 */; };
+		A868D1B829C0266B009FD2A0 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1AC29C0266B009FD2A0 /* Vector3.swift */; };
+		A868D1B929C0266B009FD2A0 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1AC29C0266B009FD2A0 /* Vector3.swift */; };
+		A868D1BA29C0266B009FD2A0 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1AC29C0266B009FD2A0 /* Vector3.swift */; };
+		A868D1BB29C0266B009FD2A0 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1AD29C0266B009FD2A0 /* CGFloat+Extensions.swift */; };
+		A868D1BC29C0266B009FD2A0 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1AD29C0266B009FD2A0 /* CGFloat+Extensions.swift */; };
+		A868D1BD29C0266B009FD2A0 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1AD29C0266B009FD2A0 /* CGFloat+Extensions.swift */; };
+		A868D1BE29C0266B009FD2A0 /* CGVector+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1AE29C0266B009FD2A0 /* CGVector+Extensions.swift */; };
+		A868D1BF29C0266B009FD2A0 /* CGVector+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1AE29C0266B009FD2A0 /* CGVector+Extensions.swift */; };
+		A868D1C029C0266B009FD2A0 /* CGVector+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1AE29C0266B009FD2A0 /* CGVector+Extensions.swift */; };
+		A868D1C129C0266B009FD2A0 /* SKColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1AF29C0266B009FD2A0 /* SKColor+Extensions.swift */; };
+		A868D1C229C0266B009FD2A0 /* SKColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1AF29C0266B009FD2A0 /* SKColor+Extensions.swift */; };
+		A868D1C329C0266B009FD2A0 /* SKColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1AF29C0266B009FD2A0 /* SKColor+Extensions.swift */; };
+		A868D1C429C0266B009FD2A0 /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1B029C0266B009FD2A0 /* SKTTimingFunctions.swift */; };
+		A868D1C529C0266B009FD2A0 /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1B029C0266B009FD2A0 /* SKTTimingFunctions.swift */; };
+		A868D1C629C0266B009FD2A0 /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1B029C0266B009FD2A0 /* SKTTimingFunctions.swift */; };
+		A868D1C729C0266B009FD2A0 /* SKTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1B129C0266B009FD2A0 /* SKTAudio.swift */; };
+		A868D1C829C0266B009FD2A0 /* SKTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1B129C0266B009FD2A0 /* SKTAudio.swift */; };
+		A868D1C929C0266B009FD2A0 /* SKTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1B129C0266B009FD2A0 /* SKTAudio.swift */; };
+		A868D1CA29C0266B009FD2A0 /* SKAction+SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1B229C0266B009FD2A0 /* SKAction+SpecialEffects.swift */; };
+		A868D1CB29C0266B009FD2A0 /* SKAction+SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1B229C0266B009FD2A0 /* SKAction+SpecialEffects.swift */; };
+		A868D1CC29C0266B009FD2A0 /* SKAction+SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1B229C0266B009FD2A0 /* SKAction+SpecialEffects.swift */; };
+		A868D1CD29C0266B009FD2A0 /* SKAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1B329C0266B009FD2A0 /* SKAction+Extensions.swift */; };
+		A868D1CE29C0266B009FD2A0 /* SKAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1B329C0266B009FD2A0 /* SKAction+Extensions.swift */; };
+		A868D1CF29C0266B009FD2A0 /* SKAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1B329C0266B009FD2A0 /* SKAction+Extensions.swift */; };
+		A868D1D029C0266B009FD2A0 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1B429C0266B009FD2A0 /* Int+Extensions.swift */; };
+		A868D1D129C0266B009FD2A0 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1B429C0266B009FD2A0 /* Int+Extensions.swift */; };
+		A868D1D229C0266B009FD2A0 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1B429C0266B009FD2A0 /* Int+Extensions.swift */; };
+		A868D1D329C0266B009FD2A0 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1B529C0266B009FD2A0 /* CGPoint+Extensions.swift */; };
+		A868D1D429C0266B009FD2A0 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1B529C0266B009FD2A0 /* CGPoint+Extensions.swift */; };
+		A868D1D529C0266B009FD2A0 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1B529C0266B009FD2A0 /* CGPoint+Extensions.swift */; };
+		A868D1D629C0266B009FD2A0 /* SKNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1B629C0266B009FD2A0 /* SKNode+Extensions.swift */; };
+		A868D1D729C0266B009FD2A0 /* SKNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1B629C0266B009FD2A0 /* SKNode+Extensions.swift */; };
+		A868D1D829C0266B009FD2A0 /* SKNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1B629C0266B009FD2A0 /* SKNode+Extensions.swift */; };
+		A868D1D929C0266B009FD2A0 /* SKTEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1B729C0266B009FD2A0 /* SKTEffects.swift */; };
+		A868D1DA29C0266B009FD2A0 /* SKTEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1B729C0266B009FD2A0 /* SKTEffects.swift */; };
+		A868D1DB29C0266B009FD2A0 /* SKTEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868D1B729C0266B009FD2A0 /* SKTEffects.swift */; };
 		A8DD984C29BBD17800E89915 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DD984B29BBD17800E89915 /* AppDelegate.swift */; };
 		A8DD984E29BBD17800E89915 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DD984D29BBD17800E89915 /* GameViewController.swift */; };
 		A8DD985129BBD17800E89915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8DD984F29BBD17800E89915 /* Main.storyboard */; };
@@ -33,6 +96,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A868D18729C025D3009FD2A0 /* Fish Bash Sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fish Bash Sound.mp3"; sourceTree = "<group>"; };
+		A868D18B29C025EB009FD2A0 /* Fish Off Sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fish Off Sound.mp3"; sourceTree = "<group>"; };
+		A868D18C29C025EB009FD2A0 /* Game Over Sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Game Over Sound.mp3"; sourceTree = "<group>"; };
+		A868D18D29C025EB009FD2A0 /* Reel Tick Sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Reel Tick Sound.mp3"; sourceTree = "<group>"; };
+		A868D18E29C025EB009FD2A0 /* Fish Caught.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fish Caught.mp3"; sourceTree = "<group>"; };
+		A868D18F29C025EB009FD2A0 /* Yum Fish Sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Yum Fish Sound.mp3"; sourceTree = "<group>"; };
+		A868D19029C025EB009FD2A0 /* Zombie Sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Zombie Sound.mp3"; sourceTree = "<group>"; };
+		A868D19129C025EB009FD2A0 /* Reel Start Sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Reel Start Sound.mp3"; sourceTree = "<group>"; };
+		A868D19229C025EB009FD2A0 /* Fishing Ambience Sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fishing Ambience Sound.mp3"; sourceTree = "<group>"; };
+		A868D1AC29C0266B009FD2A0 /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
+		A868D1AD29C0266B009FD2A0 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		A868D1AE29C0266B009FD2A0 /* CGVector+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGVector+Extensions.swift"; sourceTree = "<group>"; };
+		A868D1AF29C0266B009FD2A0 /* SKColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKColor+Extensions.swift"; sourceTree = "<group>"; };
+		A868D1B029C0266B009FD2A0 /* SKTTimingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTTimingFunctions.swift; sourceTree = "<group>"; };
+		A868D1B129C0266B009FD2A0 /* SKTAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTAudio.swift; sourceTree = "<group>"; };
+		A868D1B229C0266B009FD2A0 /* SKAction+SpecialEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+SpecialEffects.swift"; sourceTree = "<group>"; };
+		A868D1B329C0266B009FD2A0 /* SKAction+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+Extensions.swift"; sourceTree = "<group>"; };
+		A868D1B429C0266B009FD2A0 /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		A868D1B529C0266B009FD2A0 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		A868D1B629C0266B009FD2A0 /* SKNode+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKNode+Extensions.swift"; sourceTree = "<group>"; };
+		A868D1B729C0266B009FD2A0 /* SKTEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTEffects.swift; sourceTree = "<group>"; };
 		A8DD984029BBD17700E89915 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		A8DD984129BBD17700E89915 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		A8DD984229BBD17700E89915 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -79,6 +163,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A868D18629C02478009FD2A0 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				A868D18729C025D3009FD2A0 /* Fish Bash Sound.mp3 */,
+				A868D18E29C025EB009FD2A0 /* Fish Caught.mp3 */,
+				A868D18B29C025EB009FD2A0 /* Fish Off Sound.mp3 */,
+				A868D19229C025EB009FD2A0 /* Fishing Ambience Sound.mp3 */,
+				A868D18C29C025EB009FD2A0 /* Game Over Sound.mp3 */,
+				A868D19129C025EB009FD2A0 /* Reel Start Sound.mp3 */,
+				A868D18D29C025EB009FD2A0 /* Reel Tick Sound.mp3 */,
+				A868D18F29C025EB009FD2A0 /* Yum Fish Sound.mp3 */,
+				A868D19029C025EB009FD2A0 /* Zombie Sound.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		A868D1AB29C02628009FD2A0 /* SKUtils */ = {
+			isa = PBXGroup;
+			children = (
+				A868D1AD29C0266B009FD2A0 /* CGFloat+Extensions.swift */,
+				A868D1B529C0266B009FD2A0 /* CGPoint+Extensions.swift */,
+				A868D1AE29C0266B009FD2A0 /* CGVector+Extensions.swift */,
+				A868D1B429C0266B009FD2A0 /* Int+Extensions.swift */,
+				A868D1B329C0266B009FD2A0 /* SKAction+Extensions.swift */,
+				A868D1B229C0266B009FD2A0 /* SKAction+SpecialEffects.swift */,
+				A868D1AF29C0266B009FD2A0 /* SKColor+Extensions.swift */,
+				A868D1B629C0266B009FD2A0 /* SKNode+Extensions.swift */,
+				A868D1B129C0266B009FD2A0 /* SKTAudio.swift */,
+				A868D1B729C0266B009FD2A0 /* SKTEffects.swift */,
+				A868D1B029C0266B009FD2A0 /* SKTTimingFunctions.swift */,
+				A868D1AC29C0266B009FD2A0 /* Vector3.swift */,
+			);
+			path = SKUtils;
+			sourceTree = "<group>";
+		};
 		A8DD983A29BBD17700E89915 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +216,8 @@
 				A8DD984129BBD17700E89915 /* GameScene.sks */,
 				A8DD984229BBD17700E89915 /* GameScene.swift */,
 				A8DD984329BBD17800E89915 /* Assets.xcassets */,
+				A868D18629C02478009FD2A0 /* Audio */,
+				A868D1AB29C02628009FD2A0 /* SKUtils */,
 			);
 			path = "ZombieFishing Shared";
 			sourceTree = "<group>";
@@ -244,11 +365,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A868D19629C025EB009FD2A0 /* Game Over Sound.mp3 in Resources */,
+				A868D1A829C025EB009FD2A0 /* Fishing Ambience Sound.mp3 in Resources */,
+				A868D1A229C025EB009FD2A0 /* Zombie Sound.mp3 in Resources */,
+				A868D19F29C025EB009FD2A0 /* Yum Fish Sound.mp3 in Resources */,
+				A868D19329C025EB009FD2A0 /* Fish Off Sound.mp3 in Resources */,
 				A8DD987629BBD17800E89915 /* GameScene.sks in Resources */,
 				A8DD985129BBD17800E89915 /* Main.storyboard in Resources */,
+				A868D19929C025EB009FD2A0 /* Reel Tick Sound.mp3 in Resources */,
+				A868D1A529C025EB009FD2A0 /* Reel Start Sound.mp3 in Resources */,
+				A868D18829C025D3009FD2A0 /* Fish Bash Sound.mp3 in Resources */,
 				A8DD987329BBD17800E89915 /* Actions.sks in Resources */,
 				A8DD985429BBD17800E89915 /* LaunchScreen.storyboard in Resources */,
 				A8DD987C29BBD17800E89915 /* Assets.xcassets in Resources */,
+				A868D19C29C025EB009FD2A0 /* Fish Caught.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,11 +386,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A868D19729C025EB009FD2A0 /* Game Over Sound.mp3 in Resources */,
+				A868D1A929C025EB009FD2A0 /* Fishing Ambience Sound.mp3 in Resources */,
+				A868D1A329C025EB009FD2A0 /* Zombie Sound.mp3 in Resources */,
+				A868D1A029C025EB009FD2A0 /* Yum Fish Sound.mp3 in Resources */,
+				A868D19429C025EB009FD2A0 /* Fish Off Sound.mp3 in Resources */,
 				A8DD987729BBD17800E89915 /* GameScene.sks in Resources */,
 				A8DD986129BBD17800E89915 /* Main.storyboard in Resources */,
+				A868D19A29C025EB009FD2A0 /* Reel Tick Sound.mp3 in Resources */,
+				A868D1A629C025EB009FD2A0 /* Reel Start Sound.mp3 in Resources */,
+				A868D18929C025D3009FD2A0 /* Fish Bash Sound.mp3 in Resources */,
 				A8DD987429BBD17800E89915 /* Actions.sks in Resources */,
 				A8DD986429BBD17800E89915 /* LaunchScreen.storyboard in Resources */,
 				A8DD987D29BBD17800E89915 /* Assets.xcassets in Resources */,
+				A868D19D29C025EB009FD2A0 /* Fish Caught.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,9 +408,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8DD987129BBD17800E89915 /* Main.storyboard in Resources */,
+				A868D1A729C025EB009FD2A0 /* Reel Start Sound.mp3 in Resources */,
+				A868D1A429C025EB009FD2A0 /* Zombie Sound.mp3 in Resources */,
 				A8DD987829BBD17800E89915 /* GameScene.sks in Resources */,
+				A868D1A129C025EB009FD2A0 /* Yum Fish Sound.mp3 in Resources */,
+				A868D19529C025EB009FD2A0 /* Fish Off Sound.mp3 in Resources */,
 				A8DD987E29BBD17800E89915 /* Assets.xcassets in Resources */,
+				A868D1AA29C025EB009FD2A0 /* Fishing Ambience Sound.mp3 in Resources */,
 				A8DD987529BBD17800E89915 /* Actions.sks in Resources */,
+				A868D19B29C025EB009FD2A0 /* Reel Tick Sound.mp3 in Resources */,
+				A868D19829C025EB009FD2A0 /* Game Over Sound.mp3 in Resources */,
+				A868D18A29C025D3009FD2A0 /* Fish Bash Sound.mp3 in Resources */,
+				A868D19E29C025EB009FD2A0 /* Fish Caught.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +431,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8DD987929BBD17800E89915 /* GameScene.swift in Sources */,
+				A868D1D929C0266B009FD2A0 /* SKTEffects.swift in Sources */,
+				A868D1BB29C0266B009FD2A0 /* CGFloat+Extensions.swift in Sources */,
+				A868D1C129C0266B009FD2A0 /* SKColor+Extensions.swift in Sources */,
+				A868D1C729C0266B009FD2A0 /* SKTAudio.swift in Sources */,
+				A868D1D329C0266B009FD2A0 /* CGPoint+Extensions.swift in Sources */,
+				A868D1BE29C0266B009FD2A0 /* CGVector+Extensions.swift in Sources */,
 				A8DD984E29BBD17800E89915 /* GameViewController.swift in Sources */,
+				A868D1D629C0266B009FD2A0 /* SKNode+Extensions.swift in Sources */,
+				A868D1B829C0266B009FD2A0 /* Vector3.swift in Sources */,
+				A868D1CD29C0266B009FD2A0 /* SKAction+Extensions.swift in Sources */,
+				A868D1C429C0266B009FD2A0 /* SKTTimingFunctions.swift in Sources */,
+				A868D1D029C0266B009FD2A0 /* Int+Extensions.swift in Sources */,
+				A868D1CA29C0266B009FD2A0 /* SKAction+SpecialEffects.swift in Sources */,
 				A8DD984C29BBD17800E89915 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +453,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8DD987A29BBD17800E89915 /* GameScene.swift in Sources */,
+				A868D1DA29C0266B009FD2A0 /* SKTEffects.swift in Sources */,
+				A868D1BC29C0266B009FD2A0 /* CGFloat+Extensions.swift in Sources */,
+				A868D1C229C0266B009FD2A0 /* SKColor+Extensions.swift in Sources */,
+				A868D1C829C0266B009FD2A0 /* SKTAudio.swift in Sources */,
+				A868D1D429C0266B009FD2A0 /* CGPoint+Extensions.swift in Sources */,
+				A868D1BF29C0266B009FD2A0 /* CGVector+Extensions.swift in Sources */,
 				A8DD985E29BBD17800E89915 /* GameViewController.swift in Sources */,
+				A868D1D729C0266B009FD2A0 /* SKNode+Extensions.swift in Sources */,
+				A868D1B929C0266B009FD2A0 /* Vector3.swift in Sources */,
+				A868D1CE29C0266B009FD2A0 /* SKAction+Extensions.swift in Sources */,
+				A868D1C529C0266B009FD2A0 /* SKTTimingFunctions.swift in Sources */,
+				A868D1D129C0266B009FD2A0 /* Int+Extensions.swift in Sources */,
+				A868D1CB29C0266B009FD2A0 /* SKAction+SpecialEffects.swift in Sources */,
 				A8DD985C29BBD17800E89915 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,7 +475,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8DD987B29BBD17800E89915 /* GameScene.swift in Sources */,
+				A868D1DB29C0266B009FD2A0 /* SKTEffects.swift in Sources */,
+				A868D1BD29C0266B009FD2A0 /* CGFloat+Extensions.swift in Sources */,
+				A868D1C329C0266B009FD2A0 /* SKColor+Extensions.swift in Sources */,
+				A868D1C929C0266B009FD2A0 /* SKTAudio.swift in Sources */,
+				A868D1D529C0266B009FD2A0 /* CGPoint+Extensions.swift in Sources */,
+				A868D1C029C0266B009FD2A0 /* CGVector+Extensions.swift in Sources */,
 				A8DD986E29BBD17800E89915 /* GameViewController.swift in Sources */,
+				A868D1D829C0266B009FD2A0 /* SKNode+Extensions.swift in Sources */,
+				A868D1BA29C0266B009FD2A0 /* Vector3.swift in Sources */,
+				A868D1CF29C0266B009FD2A0 /* SKAction+Extensions.swift in Sources */,
+				A868D1C629C0266B009FD2A0 /* SKTTimingFunctions.swift in Sources */,
+				A868D1D229C0266B009FD2A0 /* Int+Extensions.swift in Sources */,
+				A868D1CC29C0266B009FD2A0 /* SKAction+SpecialEffects.swift in Sources */,
 				A8DD986C29BBD17800E89915 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,11 +588,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
 			};
 			name = Debug;
 		};
@@ -456,10 +643,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
 			};
 			name = Release;
 		};
@@ -478,7 +668,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -508,7 +698,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -547,7 +737,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 16.4;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
 			};
 			name = Debug;
 		};
@@ -574,7 +764,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 16.4;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -598,7 +788,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.2130studios.ZombieFishing;
 				PRODUCT_NAME = ZombieFishing;
@@ -627,7 +817,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.2130studios.ZombieFishing;
 				PRODUCT_NAME = ZombieFishing;
